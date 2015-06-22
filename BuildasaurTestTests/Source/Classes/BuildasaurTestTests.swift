@@ -18,4 +18,8 @@ class BuildasaurTestTests: XCTestCase {
     override func tearDown() {
         super.tearDown()
     }
+    
+    func testBuildasaur() {
+        XCTAssertTrue(true)
+    }
 }
