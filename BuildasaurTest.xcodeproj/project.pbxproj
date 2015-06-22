@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B94D614B1B386BC00032462A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94D614A1B386BC00032462A /* ViewController.swift */; };
 		B9C7784E1B38652A0087E662 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9C778461B38652A0087E662 /* Images.xcassets */; };
 		B9C778501B38652A0087E662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C7784B1B38652A0087E662 /* AppDelegate.swift */; };
 		B9C778581B3865340087E662 /* BuildasaurTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C778561B3865340087E662 /* BuildasaurTestTests.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B94D614A1B386BC00032462A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B9C7781B1B3864980087E662 /* BuildasaurTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuildasaurTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C778301B3864980087E662 /* BuildasaurTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuildasaurTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C778431B38652A0087E662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,6 +54,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B94D61491B386B5C0032462A /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B94D614A1B386BC00032462A /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			path = Application;
+			sourceTree = "<group>";
+		};
 		B9C778121B3864980087E662 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B9C7784A1B38652A0087E662 /* Application */,
+				B94D61491B386B5C0032462A /* View Controllers */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -245,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B94D614B1B386BC00032462A /* ViewController.swift in Sources */,
 				B9C778501B38652A0087E662 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
